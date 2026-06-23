@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nick — ISTHISNIXXXON · Портфолио</title>
+  <meta name="description" content="Портфолио Николы (ISTHISNIXXXON) — разработчика. Проекты: MyCycle и информационная система для ТРЦ «Европейский».">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230b0b0f'/><text x='50' y='68' font-size='52' font-family='monospace' font-weight='700' fill='%23c6ff3a' text-anchor='middle'>N</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Прелоадер -->
+  <div id="preloader" class="preloader" aria-hidden="true">
+    <span class="preloader__text">ISTHISNIXXXON</span>
+  </div>
+
+  <!-- Шапка -->
+  <header class="header" id="header">
+    <a href="#hero" class="logo" aria-label="На главную">
+      <span class="logo__mark">N</span>
+      <span class="logo__name">Nick</span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#about"    class="nav__link" data-i18n="nav.about">Обо мне</a>
+      <a href="#projects" class="nav__link" data-i18n="nav.projects">Проекты</a>
+      <a href="#stack"    class="nav__link" data-i18n="nav.stack">Стек</a>
+      <a href="#contact"  class="nav__link" data-i18n="nav.contact">Контакты</a>
+    </nav>
+
+    <div class="header__actions">
+      <button class="lang-switch" id="langSwitch" aria-label="Сменить язык">
+        <span class="lang-switch__opt is-active" data-lang="ru">RU</span>
+        <span class="lang-switch__sep">/</span>
+        <span class="lang-switch__opt" data-lang="en">EN</span>
+      </button>
+      <button class="burger" id="burger" aria-label="Меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="hero__eyebrow reveal" data-i18n="hero.eyebrow">Разработчик · 19 лет</p>
+        <h1 class="hero__title reveal">
+          <span class="hero__hi" data-i18n="hero.hi">Привет, я</span>
+          <span class="hero__name">Никола</span>
+          <span class="hero__alias">aka <b>ISTHISNIXXXON</b></span>
+        </h1>
+        <p class="hero__lead reveal" data-i18n="hero.lead">
+          Создаю приложения и веб-сервисы — от мобильных трекеров до информационных систем.
+          Выпускник СПО, в коде с интересом к деталям и удобству.
+        </p>
+        <div class="hero__cta reveal">
+          <a href="#projects" class="btn btn--accent" data-i18n="hero.ctaProjects">Смотреть проекты</a>
+          <a href="#contact"  class="btn btn--ghost"  data-i18n="hero.ctaContact">Связаться</a>
+        </div>
+        <div class="hero__stats reveal">
+          <div class="stat"><span class="stat__num">6</span><span class="stat__label" data-i18n="hero.stat1">проектов в портфолио</span></div>
+          <div class="stat"><span class="stat__num">19</span><span class="stat__label" data-i18n="hero.stat2">лет</span></div>
+          <div class="stat"><span class="stat__num">∞</span><span class="stat__label" data-i18n="hero.stat3">желания учиться</span></div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-hidden="true"><span></span></a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section__kicker reveal" data-i18n="about.kicker">01 — Обо мне</p>
+        <div class="about">
+          <div class="about__text">
+            <h2 class="section__title reveal" data-i18n="about.title">Немного о себе</h2>
+            <p class="reveal" data-i18n="about.p1">
+              Меня зовут Никола, мне 19 лет, в сети — <b>ISTHISNIXXXON</b>, для друзей просто Nick.
+              Я закончил среднее профессиональное образование и развиваюсь как разработчик.
+            </p>
+            <p class="reveal" data-i18n="about.p2">
+              Мне нравится доводить продукт от идеи до рабочего релиза: проектировать логику,
+              собирать интерфейс и доводить мелочи до ума. В портфолио — мобильное приложение
+              и полноценная информационная система, которую я делал как дипломный проект.
+            </p>
+          </div>
+          <ul class="about__facts">
+            <li class="reveal"><span data-i18n="about.fact1k">Имя</span><b>Никола · Nick</b></li>
+            <li class="reveal"><span data-i18n="about.fact2k">Псевдоним</span><b>ISTHISNIXXXON</b></li>
+            <li class="reveal"><span data-i18n="about.fact3k">Возраст</span><b data-i18n="about.fact3v">19 лет</b></li>
+            <li class="reveal"><span data-i18n="about.fact4k">Образование</span><b data-i18n="about.fact4v">СПО</b></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section--projects" id="projects">
+      <div class="container">
+        <p class="section__kicker reveal" data-i18n="projects.kicker">02 — Проекты</p>
+        <h2 class="section__title reveal" data-i18n="projects.title">Над чем я работал</h2>
+
+        <div class="projects">
+
+          <!-- MyCycle -->
+          <article class="project reveal">
+            <div class="project__head">
+              <span class="project__badge project__badge--mobile" data-i18n="projects.mycycle.tag">Flutter · Мобильное</span>
+              <h3 class="project__name">MyCycle</h3>
+            </div>
+            <p class="project__desc" data-i18n="projects.mycycle.desc">
+              Мобильное приложение для отслеживания менструального цикла: календарь,
+              прогноз дат, удобный и приватный интерфейс. Личный проект от идеи до сборки.
+            </p>
+            <ul class="project__tags">
+              <li>Flutter</li><li>Dart</li><li data-i18n="projects.mycycle.t1">Календарь</li><li data-i18n="projects.mycycle.t2">Прогнозы</li>
+            </ul>
+            <div class="project__actions">
+              <a href="MyCycle.apk" class="btn btn--accent btn--sm" download>
+                <span data-i18n="projects.mycycle.download">Скачать APK</span>
+              </a>
+              <span class="project__note" data-i18n="projects.mycycle.note">~60 МБ · Android</span>
+            </div>
+          </article>
+
+          <!-- isnix.ru -->
+          <article class="project reveal">
+            <div class="project__head">
+              <span class="project__badge project__badge--game" data-i18n="projects.isnix.tag">Веб · Minecraft</span>
+              <h3 class="project__name">isnix.ru</h3>
+            </div>
+            <p class="project__desc" data-i18n="projects.isnix.desc">
+              Официальный сайт моего сервера ISTHISNIXXXON — ванильный Minecraft без доната.
+              Информация о сервере, правила и подключение. Свой проект и для себя, и для сообщества.
+            </p>
+            <ul class="project__tags">
+              <li>Java</li><li data-i18n="projects.isnix.t1">Сайт</li><li>Minecraft</li>
+            </ul>
+            <div class="project__actions">
+              <a href="https://isnix.ru" target="_blank" rel="noopener" class="btn btn--accent btn--sm">
+                <span data-i18n="projects.isnix.live">Открыть сайт</span> ↗
+              </a>
+              <span class="project__note" data-i18n="projects.isnix.note">Живой проект</span>
+            </div>
+          </article>
+
+          <!-- Diploma -->
+          <article class="project project--featured reveal">
+            <div class="project__head">
+              <span class="project__badge project__badge--web" data-i18n="projects.diploma.tag">Веб · Дипломный проект</span>
+              <h3 class="project__name">ТРЦ «Европейский» — ИС</h3>
+            </div>
+            <p class="project__desc" data-i18n="projects.diploma.desc">
+              Информационная система автоматизированного планирования рекламного эфира и управления
+              коммерческими зонами торгового центра. Соединяет администрацию и арендаторов: онлайн-подача
+              заявок, согласование, планирование показа на экранах, платежи и аналитика.
+            </p>
+            <ul class="project__tags">
+              <li>Laravel</li><li>PHP</li><li>TailwindCSS</li><li>Alpine.js</li><li>Vite</li>
+            </ul>
+            <div class="project__actions">
+              <a href="http://193.187.96.220/" target="_blank" rel="noopener" class="btn btn--accent btn--sm">
+                <span data-i18n="projects.diploma.live">Открыть сайт</span> ↗
+              </a>
+              <span class="project__note" data-i18n="projects.diploma.note">Живая версия проекта</span>
+            </div>
+          </article>
+
+          <!-- Mall public site -->
+          <article class="project reveal">
+            <div class="project__head">
+              <span class="project__badge project__badge--web" data-i18n="projects.mall.tag">Веб · Фронтенд</span>
+              <h3 class="project__name" data-i18n="projects.mall.name">Сайт ТРЦ «Европейский»</h3>
+            </div>
+            <p class="project__desc" data-i18n="projects.mall.desc">
+              Публичный сайт торгово-развлекательного центра: магазины, фудкорт и рестораны,
+              навигация и информация для посетителей. Адаптивная вёрстка с нуля.
+            </p>
+            <ul class="project__tags">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+            </ul>
+            <div class="project__actions">
+              <a href="https://nixxxon177.github.io/Web-site-for-shopping-Mall-Evropeyskiy/" target="_blank" rel="noopener" class="btn btn--accent btn--sm">
+                <span data-i18n="projects.mall.live">Открыть сайт</span> ↗
+              </a>
+              <span class="project__note" data-i18n="projects.mall.note">Живой проект</span>
+            </div>
+          </article>
+
+          <!-- Tomato Timer -->
+          <article class="project reveal">
+            <div class="project__head">
+              <span class="project__badge project__badge--tool" data-i18n="projects.tomato.tag">Веб · Приложение</span>
+              <h3 class="project__name">Tomato Timer</h3>
+            </div>
+            <p class="project__desc" data-i18n="projects.tomato.desc">
+              Веб-приложение по технике Pomodoro: рабочие интервалы и перерывы, звуковые
+              уведомления, настройка длительностей и сохранение прогресса в localStorage.
+            </p>
+            <ul class="project__tags">
+              <li>JavaScript</li><li>HTML5</li><li>CSS3</li><li data-i18n="projects.tomato.t1">localStorage</li>
+            </ul>
+            <div class="project__actions">
+              <a href="https://github.com/NIXXXON177/TOMATO" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">
+                <span data-i18n="projects.code">Код на GitHub</span> ↗
+              </a>
+            </div>
+          </article>
+
+          <!-- Telegram bot -->
+          <article class="project reveal">
+            <div class="project__head">
+              <span class="project__badge project__badge--bot" data-i18n="projects.bot.tag">Telegram-бот · Python</span>
+              <h3 class="project__name" data-i18n="projects.bot.name">Бот мониторинга Donatov.net</h3>
+            </div>
+            <p class="project__desc" data-i18n="projects.bot.desc">
+              Telegram-бот для мониторинга событий на Donatov.net и отправки уведомлений в чат.
+              Развёртывается как systemd-сервис на сервере для работы 24/7.
+            </p>
+            <ul class="project__tags">
+              <li>Python</li><li data-i18n="projects.bot.t1">Telegram API</li><li>systemd</li>
+            </ul>
+            <div class="project__actions">
+              <a href="https://github.com/NIXXXON177/KirovenkoInfo" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">
+                <span data-i18n="projects.code">Код на GitHub</span> ↗
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section class="section" id="stack">
+      <div class="container">
+        <p class="section__kicker reveal" data-i18n="stack.kicker">03 — Стек</p>
+        <h2 class="section__title reveal" data-i18n="stack.title">С чем я работаю</h2>
+        <div class="stack reveal">
+          <span class="chip">PHP</span>
+          <span class="chip">Laravel</span>
+          <span class="chip">Flutter</span>
+          <span class="chip">Dart</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">HTML5</span>
+          <span class="chip">CSS3</span>
+          <span class="chip">TailwindCSS</span>
+          <span class="chip">Alpine.js</span>
+          <span class="chip">Vite</span>
+          <span class="chip">Java</span>
+          <span class="chip">Python</span>
+          <span class="chip">MySQL</span>
+          <span class="chip">Git</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--contact" id="contact">
+      <div class="container">
+        <p class="section__kicker reveal" data-i18n="contact.kicker">04 — Контакты</p>
+        <h2 class="section__title reveal" data-i18n="contact.title">Давай на связи</h2>
+        <p class="contact__lead reveal" data-i18n="contact.lead">
+          Открыт к проектам, стажировкам и интересным задачам. Напиши — отвечу.
+        </p>
+        <div class="contact__links reveal">
+          <a class="contact__link" href="mailto:isthisnixxxon@gmail.com">
+            <span class="contact__ico">✉</span> isthisnixxxon@gmail.com
+          </a>
+          <a class="contact__link" href="https://t.me/nixx_O_O" target="_blank" rel="noopener">
+            <span class="contact__ico">✈</span> @nixx_O_O
+          </a>
+          <a class="contact__link" href="https://github.com/NIXXXON177" target="_blank" rel="noopener">
+            <span class="contact__ico">⌥</span> GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Никола · ISTHISNIXXXON</span>
+      <span class="footer__made" data-i18n="footer.made">Сделано вручную, без шаблонов</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
